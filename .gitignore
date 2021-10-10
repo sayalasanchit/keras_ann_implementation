@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-keras-ann-venv/
+kerasANNenv/
 
 # Spyder project settings
 .spyderproject
