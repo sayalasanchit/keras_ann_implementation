@@ -4,3 +4,6 @@ seaborn
 numpy
 pandas
 PyYAML
+
+## local pacakge installation
+-e .
