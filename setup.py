@@ -7,8 +7,8 @@ PROJECT_NAME="keras_ann_implementation"
 USER_NAME="sayalasanchit"
 
 setuptools.setup(
-    name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    name='src',
+    version="0.0.2",
     author=USER_NAME,
     author_email="sayalasanchit@gmail.com",
     description="A small package for ANN implementation",
@@ -18,13 +18,7 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": f"https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=['src'],
     python_requires=">=3.6",
     install_requires=[
         "tensorflow",
